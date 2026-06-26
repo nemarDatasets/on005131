@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Evoked responses to elevated sounds",
-  "description": "This dataset comprises neurophysiological recordings from two experiments investigating auditory spatial processing and sound localization. Subjects were presented with noise bursts from loudspeakers positioned at various elevations while their evoked responses were recorded. The first experiment employed a deviant detection paradigm with adapter-probe stimulus pairs, while the second used a one-back task with headphone-delivered stimuli and loudspeaker-based targets. A subset of participants in the second experiment was tested with ear canal molds to disrupt elevation perception.",
-  "methods_description": "Data were collected in a hemi-anechoic chamber. Experiment 1 (Deviant Detection) presented adapter noise bursts followed by probe bursts from loudspeakers at different elevations (±37.5°, ±12.5°, -12.5°). Experiment 2 (One-Back) delivered white noise through open headphones followed by noise bursts from loudspeakers at elevations of ±37.5°, ±12.5°, and -23.5°. Approximately 5% of trials in Experiment 2 were targets requiring behavioral localization responses. A subset of Experiment 2 participants (sub-130-134) completed a second session with ear canal molds inserted.",
+  "description": "This dataset comprises neurophysiological recordings from two experiments investigating auditory spatial processing and sound localization. Subjects were presented with noise bursts from loudspeakers positioned at various elevations while their evoked neural responses were recorded. The dataset includes a localization task, a deviant detection experiment, and a one-back task with manipulations of spatial cues, providing a comprehensive resource for studying the neural mechanisms of elevated sound perception and auditory spatial cognition.",
+  "methods_description": "Data were collected in a hemi-anechoic chamber. Experiment 1 (Deviant Detection) involved subjects hearing adapter noise from one loudspeaker followed by probe bursts from different elevations, with behavioral responses recorded via button press. Experiment 2 (One-Back) presented white noise through headphones followed by loudspeaker bursts at various elevations, with target trials requiring sound localization responses. A subset of subjects in Experiment 2 completed a second session with ear canal molds to disrupt elevation perception.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -24,10 +24,13 @@
       "term": "elevation perception"
     },
     {
+      "term": "EEG"
+    },
+    {
       "term": "deviant detection"
     },
     {
-      "term": "neurophysiology"
+      "term": "auditory processing"
     }
   ],
   "related_identifiers": [

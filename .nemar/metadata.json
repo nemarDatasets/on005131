@@ -2,18 +2,35 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Evoked responses to elevated sounds",
+  "description": "This dataset comprises neurophysiological recordings from two experiments investigating auditory spatial processing and sound localization. Subjects were presented with noise bursts from loudspeakers positioned at various elevations while their evoked responses were recorded. The first experiment employed a deviant detection paradigm with adapter-probe stimulus pairs, while the second used a one-back task with headphone-delivered stimuli and loudspeaker-based targets. A subset of participants in the second experiment was tested with ear canal molds to disrupt elevation perception.",
+  "methods_description": "Data were collected in a hemi-anechoic chamber. Experiment 1 (Deviant Detection) presented adapter noise bursts followed by probe bursts from loudspeakers at different elevations (±37.5°, ±12.5°, -12.5°). Experiment 2 (One-Back) delivered white noise through open headphones followed by noise bursts from loudspeakers at elevations of ±37.5°, ±12.5°, and -23.5°. Approximately 5% of trials in Experiment 2 were targets requiring behavioral localization responses. A subset of Experiment 2 participants (sub-130-134) completed a second session with ear canal molds inserted.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Ole Bialas": {},
     "Marc Schoewiesner": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005131.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "auditory evoked responses"
     },
+    {
+      "term": "sound localization"
+    },
+    {
+      "term": "spatial hearing"
+    },
+    {
+      "term": "elevation perception"
+    },
+    {
+      "term": "deviant detection"
+    },
+    {
+      "term": "neurophysiology"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005131",
       "identifier_type": "URL",
@@ -23,16 +40,21 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005131",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005131.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "Neuroimaging Dataset",
   "modalities": [
     "beh",
     "eeg"
   ],
-  "resource_type_specific": "Neuroimaging Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "24.0 GB (193 files)"
   ],
   "formats": [
     ".eeg",
@@ -41,35 +63,8 @@
     ".sofa",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This dataset comprises neuroimaging and behavioral data from two auditory experiments investigating human sound localization and spatial processing. Subjects were presented with noise bursts from loudspeakers positioned at various elevations in a hemi-anechoic chamber. Experiment 1 employed a deviant detection paradigm with adapter-probe stimulus pairs, while Experiment 2 used a one-back task with headphone-delivered stimuli and loudspeaker-based targets. A subset of subjects in Experiment 2 completed a second session with ear canal molds to disrupt elevation perception.",
-  "methods_description": "Data collection was conducted in a hemi-anechoic chamber. Experiment 1 (subjects 001-023) presented noise bursts from loudspeakers at elevations of ±37.5°, ±12.5°, and -37.5° in an adapter-probe paradigm. Experiment 2 (subjects 100-134) delivered white noise through open headphones followed by loudspeaker-based noise bursts at elevations of 37.5°, 12.5°, -23.5°, and -37.5°. Approximately 5% of trials in Experiment 2 were target trials where subjects were prompted to localize the previously heard sound. Subjects 130-134 completed a second session with ear canal molds to disrupt elevation perception. Behavioral responses were recorded via button press within one-second windows for deviant detection and via localization responses for target trials.",
-  "keywords": [
-    {
-      "term": "auditory localization"
-    },
-    {
-      "term": "sound elevation"
-    },
-    {
-      "term": "spatial hearing"
-    },
-    {
-      "term": "deviant detection"
-    },
-    {
-      "term": "one-back task"
-    },
-    {
-      "term": "behavioral neuroscience"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "elevation perception"
-    }
-  ],
-  "source_hash": "84f3868f906302211a29c0fab92c0c0f7921b00430121275f00b3030054c3b97"
+  "source_hash": "649bfa5359ce1f01643fffde52b240308ea1c495dec0ba4fe4b03d284ac2dfa5"
 }

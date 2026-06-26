@@ -1,0 +1,30 @@
+{
+  "version": "2.0",
+  "dataset_id": "on005131",
+  "source": "openneuro",
+  "source_id": "ds005131",
+  "title": "Evoked responses to elevated sounds",
+  "authors": {
+    "Ole Bialas": {},
+    "Marc Schoewiesner": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds005131.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.7.0",
+  "recording_modality": [
+    "beh",
+    "eeg"
+  ],
+  "datatypes": [
+    "beh",
+    "eeg"
+  ]
+}

@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Evoked responses to elevated sounds",
-  "description": "This dataset comprises neurophysiological recordings from two experiments investigating auditory spatial processing and sound localization. Subjects were presented with noise bursts from loudspeakers positioned at various elevations while their evoked neural responses were recorded. The dataset includes a localization task, a deviant detection experiment, and a one-back task with manipulations of spatial cues, providing a comprehensive resource for studying the neural mechanisms of elevated sound perception and auditory spatial cognition.",
-  "methods_description": "Data were collected in a hemi-anechoic chamber. Experiment 1 (Deviant Detection) involved subjects hearing adapter noise from one loudspeaker followed by probe bursts from different elevations, with behavioral responses recorded via button press. Experiment 2 (One-Back) presented white noise through headphones followed by loudspeaker bursts at various elevations, with target trials requiring sound localization responses. A subset of subjects in Experiment 2 completed a second session with ear canal molds to disrupt elevation perception.",
+  "description": "This dataset comprises EEG recordings from two experiments investigating evoked responses to sounds presented at varying elevations from loudspeakers in a hemi-anechoic chamber. In Experiment I, a deviant detection paradigm was used to examine responses to changes in sound source elevation between an adapter and probe stimulus. In Experiment II, a one-back task assessed elevation discrimination via white noise adaptation and localization judgments, including a subset of subjects tested with sound localization disrupted by ear molds. The dataset also includes behavioral localization test data for most subjects.",
+  "methods_description": "Subjects were presented with bursts of pink or white noise from loudspeakers positioned at various elevations within a hemi-anechoic chamber. In Experiment I (deviant detection), subjects heard an adapter sound followed by a probe sound, with EEG and behavioral responses (button presses to deviants) recorded. In Experiment II (one-back task), subjects heard white noise through open headphones followed by a burst from a loudspeaker at a specific elevation, with target trials requiring localization judgments. A subset of subjects in Experiment II completed a second session with ear molds disrupting elevation perception.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,25 +12,26 @@
   },
   "keywords": [
     {
-      "term": "auditory evoked responses"
+      "term": "EEG"
     },
     {
       "term": "sound localization"
     },
     {
-      "term": "spatial hearing"
+      "term": "Auditory Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001307"
+    },
+    {
+      "term": "Evoked Potentials",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005071"
     },
     {
       "term": "elevation perception"
     },
     {
-      "term": "EEG"
-    },
-    {
       "term": "deviant detection"
-    },
-    {
-      "term": "auditory processing"
     }
   ],
   "related_identifiers": [
@@ -40,14 +41,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005131",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds005131.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005131",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",

@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Evoked responses to elevated sounds",
-  "description": "This dataset comprises EEG recordings from two experiments investigating evoked responses to sounds presented at varying elevations from loudspeakers in a hemi-anechoic chamber. In Experiment I, a deviant detection paradigm was used to examine responses to changes in sound source elevation between an adapter and probe stimulus. In Experiment II, a one-back task assessed elevation discrimination via white noise adaptation and localization judgments, including a subset of subjects tested with sound localization disrupted by ear molds. The dataset also includes behavioral localization test data for most subjects.",
-  "methods_description": "Subjects were presented with bursts of pink or white noise from loudspeakers positioned at various elevations within a hemi-anechoic chamber. In Experiment I (deviant detection), subjects heard an adapter sound followed by a probe sound, with EEG and behavioral responses (button presses to deviants) recorded. In Experiment II (one-back task), subjects heard white noise through open headphones followed by a burst from a loudspeaker at a specific elevation, with target trials requiring localization judgments. A subset of subjects in Experiment II completed a second session with ear molds disrupting elevation perception.",
+  "description": "EEG dataset of evoked responses to noise bursts presented from loudspeakers at different elevations in a hemi-anechoic chamber. It combines two experiments, a deviant detection task with adapter and probe sounds and a one-back localization task. In the one-back task, a subset of participants was also tested with ear molds that disrupt elevation perception. Participants first completed a sound-elevation localization test, and behavioral responses are included.",
+  "methods_description": "Pink noise bursts were presented from loudspeakers at several elevations and 10° azimuth in a hemi-anechoic chamber. Experiment I (subjects 001-023) used a long adapter noise followed by a short probe burst from another elevation, with button-press responses to deviants. Experiment II (subjects 100-134) used a long white noise adapter over open headphones followed by a burst from one of four elevations. About 5% of trials were targets that prompted localization of the previous sound. Subjects 130-134 completed a second session with molds inserted to disrupt elevation perception.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,9 +18,7 @@
       "term": "sound localization"
     },
     {
-      "term": "Auditory Perception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001307"
+      "term": "auditory elevation perception"
     },
     {
       "term": "Evoked Potentials",
@@ -28,10 +26,10 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D005071"
     },
     {
-      "term": "elevation perception"
+      "term": "adaptation"
     },
     {
-      "term": "deviant detection"
+      "term": "spatial hearing"
     }
   ],
   "related_identifiers": [
@@ -58,7 +56,7 @@
     "eeg"
   ],
   "sizes": [
-    "24.0 GB (193 files)"
+    "22.34 GB (193 files)"
   ],
   "formats": [
     ".eeg",
